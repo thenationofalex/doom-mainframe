@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  mainframe:
+    build: .
+    ports: 
+      - "3270:3270"
